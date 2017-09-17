@@ -1,13 +1,3 @@
-/* ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-li{
-    display: inline;
-    float: right;
-    /* clear: left; */
-/* } */
 
 body{
     margin: 0;
@@ -70,7 +60,7 @@ nav a::before{
     position: absolute;
     top: 0;
     width: 0%;
-    transition: all ease-in-out 250ms;
+    transition: all ease-in-out 200ms;
 }
 nav a:hover::before{
     width: 100%;
@@ -82,10 +72,23 @@ nav a:hover::before{
     text-align: center;
 }
 
+#portfolio-nav li{
+    display: inline-block;
+}
+
+#porfolio-nav ul a{
+    color: #444;
+    font-size: 16px;
+    text-decoration: none;
+
+}
 .mix{
     display: inline-block;
     height: 220px;
     opacity: 1;
-
 }
 
+.cube-of-projects{
+    display: flex;
+    flex-flow: row wrap;
+}
