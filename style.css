@@ -23,3 +23,7 @@ body{
 header{
     background: #55d6aa;
 }
+
+#mainLogo{
+    float: left;
+}
