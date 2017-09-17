@@ -75,3 +75,17 @@ nav a::before{
 nav a:hover::before{
     width: 100%;
 }
+
+/* Porfolio page css*/
+
+.recent-projects{
+    text-align: center;
+}
+
+.mix{
+    display: inline-block;
+    height: 220px;
+    opacity: 1;
+
+}
+
