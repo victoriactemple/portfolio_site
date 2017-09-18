@@ -19,6 +19,9 @@ header:after{
     display: table;
     clear: both;
 }
+footer{
+
+}
 
 #mainLogo{
     float: left;
@@ -91,4 +94,12 @@ position:relative;
 }
 .filter{
     text-decoration: none;
+}
+
+
+footer{
+    width: 100%;
+    background-color: grey;
+    height: 20px;
+    position: absolute;
 }
