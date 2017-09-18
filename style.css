@@ -68,27 +68,27 @@ nav a:hover::before{
 
 /* Porfolio page css*/
 
+.portfolio-nav{
+    text-decoration: none;
+}
+
 .recent-projects{
     text-align: center;
 }
 
-#portfolio-nav li{
-    display: inline-block;
+.portfolio-nav{
+    list-style: none;
+}
+.portfolio-item{
+display: flex;
+flex-flow: row wrap;
+width: 50%;
+position:relative;
 }
 
-#porfolio-nav ul a{
-    color: #444;
-    font-size: 16px;
+#portfolio-block {
     text-decoration: none;
-
 }
-.mix{
-    display: inline-block;
-    height: 220px;
-    opacity: 1;
-}
-
-.cube-of-projects{
-    display: flex;
-    flex-flow: row wrap;
+.filter{
+    text-decoration: none;
 }
